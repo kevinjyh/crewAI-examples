@@ -12,6 +12,7 @@ agents = GameAgents()
 print("## Welcome to the Game Crew")
 print('-------------------------------')
 game = input("What is the game you would like to build? What will be the mechanics?\n")
+# 📌  SnakeGameDescription 📝 🗑️
 
 # Create Agents
 senior_engineer_agent = agents.senior_engineer_agent()

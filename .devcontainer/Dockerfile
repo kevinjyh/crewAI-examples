@@ -10,4 +10,7 @@ RUN apt-get update && \
     unzip \
     git 
 
+# Install crewai and python-dotenv
+RUN pip install poetry
+
 COPY . /code/
