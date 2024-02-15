@@ -3,6 +3,7 @@ from textwrap import dedent
 from langchain.llms import OpenAI, Ollama
 from langchain_openai import ChatOpenAI
 
+# 📌  agent_attributes.md 📝 🗑️
 
 # This is an example of how to define custom agents.
 # You can define as many agents as you want.
