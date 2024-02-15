@@ -15,7 +15,7 @@ from tools.template_tools import TemplateTools
 from dotenv import load_dotenv
 load_dotenv()
 
-class LandingPageCrew(): # TODO:未理解Agent如何從config中讀取
+class LandingPageCrew():  # TODO:未理解Agent如何從config中讀取
   def __init__(self, idea):
     self.agents_config = json.loads(open("config/agents.json", "r").read())
     self.idea = idea
