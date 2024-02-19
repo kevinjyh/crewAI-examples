@@ -10,4 +10,4 @@ RUN apt-get update && \
 # Install crewai and python-dotenv
 RUN pip install crewai python-dotenv poetry platformdirs --no-cache-dir
 
-COPY ../ /code/
+COPY . /code/
