@@ -2,7 +2,7 @@ from crewai import Task
 from textwrap import dedent
 
 class MarketingAnalysisTasks:
-	def product_analysis(self, agent, product_website, product_details):
+	def product_analysis(self, agent, product_website, product_details):# TODO:可指定網址搜尋
 		return Task(description=dedent(f"""\
 			Analyze the given product website: {product_website}.
 			Extra details provided by the customer: {product_details}.

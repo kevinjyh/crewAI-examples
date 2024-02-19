@@ -20,8 +20,8 @@ product_details = input("Any extra details about the product and or the instagra
 product_competitor_agent = agents.product_competitor_agent()
 strategy_planner_agent = agents.strategy_planner_agent()
 creative_agent = agents.creative_content_creator_agent()
-# Create Tasks
-website_analysis = tasks.product_analysis(product_competitor_agent, product_website, product_details)
+# Create Tasks 
+website_analysis = tasks.product_analysis(product_competitor_agent, product_website, product_details)	# TODO:1 agent 2 tasks
 market_analysis = tasks.competitor_analysis(product_competitor_agent, product_website, product_details)
 campaign_development = tasks.campaign_development(strategy_planner_agent, product_website, product_details)
 write_copy = tasks.instagram_ad_copy(creative_agent)
